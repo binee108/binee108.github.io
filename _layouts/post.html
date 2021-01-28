@@ -11,9 +11,9 @@ post_class: post-template
     <div class="row">
 
         <!-- Post Share -->
-        <div class="col-md-2 pl-0">
+<!--         <div class="col-md-2 pl-0">
             {% include share.html %}
-        </div>
+        </div> -->
 
         <!-- Post -->
         {% assign author = site.authors[page.author] %}
@@ -31,16 +31,17 @@ post_class: post-template
                         <img class="author-thumb" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=250&d=mm&r=x" alt="{{ author.display_name }}">
                         {% endif %}
                     </div> -->
-                    <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left">
-                        by {{ author.display_name }}
-                        <!-- <a target="_blank" class="link-dark" href="{{ author.web }}">{{ author.display_name }}</a><a target="_blank" href="{{ author.twitter }}" class="btn follow">Follow</a>
-                        <span class="author-description">{{ author.description }}</span> -->
-                    </div>
+
                 </div>
                 {% endif %}
 
                 <!-- Post Title -->
                 <h1 class="posttitle">{{ page.title }}</h1>
+                <div class="col-xs-12 col-md-9 col-lg-10 text-lg-right text-md-left">
+                    by {{ author.display_name }}
+                    <!-- <a target="_blank" class="link-dark" href="{{ author.web }}">{{ author.display_name }}</a><a target="_blank" href="{{ author.twitter }}" class="btn follow">Follow</a>
+                    <span class="author-description">{{ author.description }}</span> -->
+                </div>                
 
             </div>
 

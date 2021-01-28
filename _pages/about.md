@@ -9,7 +9,6 @@ comments: true
 <div class="col-md-8 pr-5">
 
 <p>Cyber Security Researcher / Vulnerbility Analyst / Pentester</p>
-
-</div>
+	
 </div>
 </div>
