@@ -1,7 +1,7 @@
 # Site
-name: "Mediumish"
-title: "Mediumish"
-description: "Jekyll template, Medium styled, free for bloggers."
+name: "binee"
+title: "binee"
+description: "The moment you give up your dream, you lose half of your life."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: /
@@ -13,6 +13,14 @@ permalink: /:title/
 
 # Authors
 authors:
+  binee:
+    name: Jeong Jong Bin
+    display_name: binee
+    gravatar: e56154546cf4be74e393c62d1ae9f9d4
+    email: binee108@gmail.com
+    web: https://binee108.github.io
+    twitter: https://twitter.com/
+    description: "This is the optimist"
   sal:
     name: Sal
     display_name: Sal
